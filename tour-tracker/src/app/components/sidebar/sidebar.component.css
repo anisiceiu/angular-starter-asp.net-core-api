@@ -1,0 +1,22 @@
+/* Sidebar styles */
+.bg-light {
+    background-color: #f8f9fa !important;
+  }
+  
+  .nav-link {
+    color: #333;
+  }
+  
+  .nav-link.active {
+    background-color: #0d6efd;
+    color: white !important;
+  }
+  
+  /* Ensure the sidebar takes full height */
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+  }
